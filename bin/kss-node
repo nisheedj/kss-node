@@ -19,6 +19,12 @@ var generator,
 
   /*eslint-disable key-spacing*/
   cliOptions = {
+    'title': {
+      string: true,
+      multiple: false,
+      describe: 'Title of the style guide',
+      default: 'KSS Style Guide'
+    },
     'init': {
       alias     : 'i',
       string    : true,
